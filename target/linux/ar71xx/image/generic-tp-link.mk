@@ -424,7 +424,7 @@ endef
 TARGET_DEVICES += tl-wr2543-v1
 
 define Device/tl-wr703n-v1
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-8mlzma)
   DEVICE_TITLE := TP-LINK TL-WR703N v1
   DEVICE_PACKAGES := kmod-usb-core kmod-usb2
   BOARDNAME := TL-WR703N
